@@ -57,7 +57,7 @@ public class DreieckTest {
     @Test
     void kein_dreieck_mit_c(){
         String actual = dreieck.calculate(12,12,122);
-        String expected = "Kein Dreieck. Die eingegebenen Zahlen müssen zwischen 1 und 99 liegen.";
+        String expected = "Leider das ist kein Dreieck. Die eingegebenen Zahlen müssen zwischen 1 und 99 liegen.";
 
         assertEquals(expected, actual);
     }
