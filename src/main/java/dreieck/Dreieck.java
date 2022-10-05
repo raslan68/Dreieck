@@ -29,7 +29,7 @@ public class Dreieck {
             return "Gleichschenkliges Dreieck";
 
         }
-        return "Kein Ergebnis";
+        return " Leider das ist Dreieck. Kein Ergebnis";
     }
 
     public int getA() {
